@@ -33,7 +33,7 @@ with st.form(key='stock_form'):
     yf.pdr_override() 
     df_save = pdr.get_data_yahoo(stock_code + '.T', start_date, end_date)
      
-    folder_path = 'C:\\Users\\SRS-2231\\source\\StockCSV\\'
+    folder_path = '.\\data\\'
     file_path = folder_path + stock_code + '.csv'
      
     #csvで保存
